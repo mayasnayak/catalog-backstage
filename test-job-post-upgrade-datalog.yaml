@@ -3,7 +3,7 @@ kind: Component
 metadata:
   name: test-job-post-upgrade
   annotations:
-    'jenkins.io/job-full-name': test-job-post-upgrade
+    'jenkins.io/job-full-name': test-job-post-upgrade,testing,CloudOps/createJobFromAnotherJenkins
 spec:
   type: service
   lifecycle: experimental
