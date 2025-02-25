@@ -1,0 +1,6 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: test-job-post-upgrade
+  annotations:
+    'jenkins.io/job-full-name': test-job-post-upgrade
