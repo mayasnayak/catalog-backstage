@@ -4,7 +4,7 @@ metadata:
   name: test-job-post-upgrade
   annotations:
     'jenkins.io/job-full-name': test-job-post-upgrade
-  spec:
-    type: service
-    lifecycle: experimental
-    owner: maya
+spec:
+  type: service
+  lifecycle: experimental
+  owner: maya
